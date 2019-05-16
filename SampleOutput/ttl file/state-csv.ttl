@@ -1,0 +1,14 @@
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ia: <http://www.example.org/> .
+
+
+<http://www.example.org/State/stc5> a "stc5" ;
+	dbpedia-owl:name "bihar" ;
+	ia:hasColdStorage <http://www.example.org/ColdStorage/cscc5> ;
+	ia:havetraditionalcrop <http://www.example.org/TraditionalCrop/cc5> .
+
+<http://www.example.org/State/stc9> a "stc9" ;
+	dbpedia-owl:name "bihar" ;
+	ia:hasColdStorage <http://www.example.org/ColdStorage/cscc9> ;
+	ia:havenontraditionalcrop <http://www.example.org/NonTraditionalCrop/cc9> .

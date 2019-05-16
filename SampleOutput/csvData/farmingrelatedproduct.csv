@@ -1,0 +1,5 @@
+farmingrelatedproductcount,producttype,name,enrichmineral,pricePerUnit,unitType,agriculturemachinerycount
+frpc5,Fertilizer,"amonium nitrate",magneeze,100,gallon,amc12
+frpc6,Pesticide,ViriPlus+,n/a,450,drums,amc5
+frpc9,Fertilizer,"amonium nitrate",nitrozen,100,bottle,amc12
+frpc10,Pesticide,ViriPlus+,n/a,450,gallon,amc5

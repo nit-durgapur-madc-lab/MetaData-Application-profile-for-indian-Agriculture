@@ -1,0 +1,5 @@
+landcount,landtype,area,soilcount,statecount,agriculturemachinerycount
+lac5,Plain,15acre,sc5,stc5,amc2
+lac5,Plain,15acre,sc5,stc5,amc0
+lac9,Plateau,15acre,sc9,stc9,amc1
+lac9,Plateau,15acre,sc9,stc9,amc0

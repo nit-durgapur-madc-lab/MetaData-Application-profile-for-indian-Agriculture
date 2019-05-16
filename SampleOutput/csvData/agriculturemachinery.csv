@@ -1,0 +1,12 @@
+PersonCount,agriculturemachinerycount,Name,rentPricePerHour
+pc0,amc11,Potato_Harvester,200
+pc0,amc8,RiceSeedSowingMachine,100
+pc0,amc3,SprinklerSystem,30
+pc0,amc0,Tractor,24
+pc5,amc6,Roller,66
+pc5,amc4,PumpandPipe,234
+pc5,amc1,Cultipacker,22
+pc5,amc0,Tractor,24
+pc9,amc5,Sprayer,49
+pc9,amc4,PumpandPipe,230
+pc9,amc2,Khurpi,20

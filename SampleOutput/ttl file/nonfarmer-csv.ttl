@@ -1,0 +1,8 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ia: <http://www.example.org/> .
+
+
+<http://www.example.org/NonFarmer/nfc5> a "nfc5" ;
+	dbo:occupation "service" ;
+	ia:hasLand <http://www.example.org/Land/lac5> .

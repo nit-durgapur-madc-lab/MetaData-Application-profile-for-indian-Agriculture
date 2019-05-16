@@ -1,0 +1,12 @@
+PersonCount,Name,Age,Gender,MobileNumber,locationcount,farmercount,nonfarmercount,agriculturemachinerycount
+pc0,DEEPAK,23,male,08084779547,lc0,fc0,,amc11
+pc0,DEEPAK,23,male,08084779547,lc0,fc0,,amc8
+pc0,DEEPAK,23,male,08084779547,lc0,fc0,,amc3
+pc0,DEEPAK,23,male,08084779547,lc0,fc0,,amc0
+pc5,tanmay,27,male,8864997648,lc5,,nfc5,amc6
+pc5,tanmay,27,male,8864997648,lc5,,nfc5,amc4
+pc5,tanmay,27,male,8864997648,lc5,,nfc5,amc1
+pc5,tanmay,27,male,8864997648,lc5,,nfc5,amc0
+pc9,raju,29,male,7903010313,lc9,fc9,,amc5
+pc9,raju,29,male,7903010313,lc9,fc9,,amc4
+pc9,raju,29,male,7903010313,lc9,fc9,,amc2

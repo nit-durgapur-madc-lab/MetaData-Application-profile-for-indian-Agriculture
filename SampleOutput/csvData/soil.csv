@@ -1,0 +1,3 @@
+soilcount,soiltype,enrichmineral,deficientmineral,majorcropname,farmingrelatedproductcount
+sc5,"Black soil","potassium,sodium",magneeze,"corn,wheat",frpc5
+sc9,"Alluvial soil","potassium,sodium",nitrozen,rice,frpc9

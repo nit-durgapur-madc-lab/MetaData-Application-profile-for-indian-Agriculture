@@ -1,0 +1,11 @@
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ia: <http://www.example.org/> .
+
+
+<http://www.example.org/Bank/bc5> a "bc5" ;
+	dbpedia-owl:name "sbi" .
+
+<http://www.example.org/Bank/bc9> a "bc9" ;
+	dbpedia-owl:name "pnb" ;
+	ia:givesLoan <http://www.example.org/Farmer/fc9> .

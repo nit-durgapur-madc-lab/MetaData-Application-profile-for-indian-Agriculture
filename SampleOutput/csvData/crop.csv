@@ -1,0 +1,3 @@
+cropcount,coldstoragecount,seedsowingcount,irrigationcount,cropgrowthcount,harvestingcount,name,croptype,startmonth,endmonth
+cc5,cscc5,ssc5,ic5,cgc5,hc5,wheat,"Rabi Crops",October,April
+cc9,cscc9,ssc9,ic9,cgc9,hc9,rice,"Rabi Crops",October,July

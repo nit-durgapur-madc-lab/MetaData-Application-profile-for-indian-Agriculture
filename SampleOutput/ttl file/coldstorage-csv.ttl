@@ -1,0 +1,17 @@
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ia: <http://www.example.org/> .
+@prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+
+
+<http://www.example.org/ColdStorage/cscc5> a "cscc5" ;
+	ia:hasLocation <http://www.example.org/Location/lc6> ;
+	dbpedia-owl:name "janta mini cold storage" ;
+	ia:hasRentPricePerMonth "500" ;
+	ebucore:agentMobileTelephoneNumber "094314 15336" .
+
+<http://www.example.org/ColdStorage/cscc9> a "cscc9" ;
+	ia:hasLocation <http://www.example.org/Location/lc10> ;
+	dbpedia-owl:name "janta mini cold storage" ;
+	ia:hasRentPricePerMonth "500" ;
+	ebucore:agentMobileTelephoneNumber "094314 15336" .

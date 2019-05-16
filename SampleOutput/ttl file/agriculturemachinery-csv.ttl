@@ -1,0 +1,59 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ia: <http://www.example.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<http://www.example.org/AgricultureMachine/amc11> ia:hasOwner <http://www.example.org/Person/pc0> ;
+	a "amc11" ;
+	rdfs:label "Potato_Harvester" ;
+	ia:hasRentPricePerHour "200" .
+
+<http://www.example.org/AgricultureMachine/amc8> ia:hasOwner <http://www.example.org/Person/pc0> ;
+	a "amc8" ;
+	rdfs:label "RiceSeedSowingMachine" ;
+	ia:hasRentPricePerHour "100" .
+
+<http://www.example.org/AgricultureMachine/amc3> ia:hasOwner <http://www.example.org/Person/pc0> ;
+	a "amc3" ;
+	rdfs:label "SprinklerSystem" ;
+	ia:hasRentPricePerHour "30" .
+
+<http://www.example.org/AgricultureMachine/amc0> ia:hasOwner <http://www.example.org/Person/pc0> ;
+	a "amc0" ;
+	rdfs:label "Tractor" ;
+	ia:hasRentPricePerHour "24" .
+
+<http://www.example.org/AgricultureMachine/amc6> ia:hasOwner <http://www.example.org/Person/pc5> ;
+	a "amc6" ;
+	rdfs:label "Roller" ;
+	ia:hasRentPricePerHour "66" .
+
+<http://www.example.org/AgricultureMachine/amc4> ia:hasOwner <http://www.example.org/Person/pc5> ;
+	a "amc4" ;
+	rdfs:label "PumpandPipe" ;
+	ia:hasRentPricePerHour "234" .
+
+<http://www.example.org/AgricultureMachine/amc1> ia:hasOwner <http://www.example.org/Person/pc5> ;
+	a "amc1" ;
+	rdfs:label "Cultipacker" ;
+	ia:hasRentPricePerHour "22" .
+
+<http://www.example.org/AgricultureMachine/amc0> ia:hasOwner <http://www.example.org/Person/pc5> ;
+	a "amc0" ;
+	rdfs:label "Tractor" ;
+	ia:hasRentPricePerHour "24" .
+
+<http://www.example.org/AgricultureMachine/amc5> ia:hasOwner <http://www.example.org/Person/pc9> ;
+	a "amc5" ;
+	rdfs:label "Sprayer" ;
+	ia:hasRentPricePerHour "49" .
+
+<http://www.example.org/AgricultureMachine/amc4> ia:hasOwner <http://www.example.org/Person/pc9> ;
+	a "amc4" ;
+	rdfs:label "PumpandPipe" ;
+	ia:hasRentPricePerHour "230" .
+
+<http://www.example.org/AgricultureMachine/amc2> ia:hasOwner <http://www.example.org/Person/pc9> ;
+	a "amc2" ;
+	rdfs:label "Khurpi" ;
+	ia:hasRentPricePerHour "20" .

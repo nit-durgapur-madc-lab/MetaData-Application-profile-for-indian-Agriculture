@@ -1,0 +1,43 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ia: <http://www.example.org/> .
+
+
+<http://www.example.org/Location/lc0> a "lc0" ;
+	ia:VillageName "OJHAUL" ;
+	ia:PostOfficeName "OJHAUL" ;
+	ia:DistrictName "DARBHANGA" ;
+	ia:StateName "BIHAR" ;
+	ia:StreetName "N/A" ;
+	ia:BuildingName "N/A" .
+
+<http://www.example.org/Location/lc5> a "lc5" ;
+	ia:VillageName "OJHAUL" ;
+	ia:PostOfficeName "OJHAUL" ;
+	ia:DistrictName "DARBHANGA" ;
+	ia:StateName "BIHAR" ;
+	ia:StreetName "N/A" ;
+	ia:BuildingName "N/A" .
+
+<http://www.example.org/Location/lc6> a "lc6" ;
+	ia:VillageName "n/a" ;
+	ia:PostOfficeName "n/a" ;
+	ia:DistrictName "darbhanga" ;
+	ia:StateName "bihar" ;
+	ia:StreetName "Donar Road" ;
+	ia:BuildingName "n/a" .
+
+<http://www.example.org/Location/lc9> a "lc9" ;
+	ia:VillageName "OJHAUL" ;
+	ia:PostOfficeName "OJHAUL" ;
+	ia:DistrictName "DARBHANGA" ;
+	ia:StateName "BIHAR" ;
+	ia:StreetName "N/A" ;
+	ia:BuildingName "N/A" .
+
+<http://www.example.org/Location/lc10> a "lc10" ;
+	ia:VillageName "n/a" ;
+	ia:PostOfficeName "n/a" ;
+	ia:DistrictName "darbhanga" ;
+	ia:StateName "bihar" ;
+	ia:StreetName "Donar Road" ;
+	ia:BuildingName "n/a" .

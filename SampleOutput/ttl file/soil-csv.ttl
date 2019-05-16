@@ -1,0 +1,17 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ia: <http://www.example.org/> .
+
+
+<http://www.example.org/Soil/sc5> a "sc5" ;
+	ia:hasSoilType "Black soil" ;
+	ia:EnrichMineral "potassium,sodium" ;
+	ia:DeficientMineral "magneeze" ;
+	ia:majorcrop "corn,wheat" ;
+	ia:needs <http://www.example.org/FarmingRelatedProduct/frpc5> .
+
+<http://www.example.org/Soil/sc9> a "sc9" ;
+	ia:hasSoilType "Alluvial soil" ;
+	ia:EnrichMineral "potassium,sodium" ;
+	ia:DeficientMineral "nitrozen" ;
+	ia:majorcrop "rice" ;
+	ia:needs <http://www.example.org/FarmingRelatedProduct/frpc9> .

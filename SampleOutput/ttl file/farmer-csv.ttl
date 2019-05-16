@@ -1,0 +1,11 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ia: <http://www.example.org/> .
+
+
+<http://www.example.org/Farmer/fc0> a "fc0" ;
+	ia:is_a <http://www.example.org/DependentFarmer/dfc0> ;
+	ia:cultivates <http://www.example.org/Crop/cc5> .
+
+<http://www.example.org/Farmer/fc9> a "fc9" ;
+	ia:is_a <http://www.example.org/IndependentFarmer/ifc9> ;
+	ia:cultivates <http://www.example.org/Crop/cc9> .

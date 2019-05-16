@@ -1,0 +1,6 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ia: <http://www.example.org/> .
+
+
+<http://www.example.org/IndependentFarmer/ifc9> a "ifc9" ;
+	ia:ownsLand <http://www.example.org/Land/lc9> .

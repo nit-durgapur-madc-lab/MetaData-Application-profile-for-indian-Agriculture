@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix Sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix ia: <http://www.example.org/> .
+
+
+<http://www.example.org/Land/lac5> a "lac5" ;
+	ia:hasLandType "Plain" ;
+	Sdmx-dimension:refArea "15acre" ;
+	ia:contains <http://www.example.org/Soil/sc5> ;
+	ia:located_in <http://www.example.org/State/stc5> ;
+	ia:plowedBy <http://www.example.org/AgricultureMachine/amc2> ;
+	a "lac5" ;
+	ia:hasLandType "Plain" ;
+	Sdmx-dimension:refArea "15acre" ;
+	ia:contains <http://www.example.org/Soil/sc5> ;
+	ia:located_in <http://www.example.org/State/stc5> ;
+	ia:plowedBy <http://www.example.org/AgricultureMachine/amc0> .
+
+<http://www.example.org/Land/lac9> a "lac9" ;
+	ia:hasLandType "Plateau" ;
+	Sdmx-dimension:refArea "15acre" ;
+	ia:contains <http://www.example.org/Soil/sc9> ;
+	ia:located_in <http://www.example.org/State/stc9> ;
+	ia:plowedBy <http://www.example.org/AgricultureMachine/amc1> ;
+	a "lac9" ;
+	ia:hasLandType "Plateau" ;
+	Sdmx-dimension:refArea "15acre" ;
+	ia:contains <http://www.example.org/Soil/sc9> ;
+	ia:located_in <http://www.example.org/State/stc9> ;
+	ia:plowedBy <http://www.example.org/AgricultureMachine/amc0> .

@@ -1,0 +1,9 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ia: <http://www.example.org/> .
+
+
+<http://www.example.org/Harvesting/hc5> a "hc5" ;
+	ia:requires <http://www.example.org/AgricultureMachine/amc9> .
+
+<http://www.example.org/Harvesting/hc9> a "hc9" ;
+	ia:requires <http://www.example.org/AgricultureMachine/amc9> .
