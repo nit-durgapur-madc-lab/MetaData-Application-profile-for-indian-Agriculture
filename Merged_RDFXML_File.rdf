@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://www.example.org/AgricultureMachine/amc0">
+	<hasOwner xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Person/pc0"/>
+	<hasOwner xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Person/pc5"/>
+	<hasRentPricePerHour xmlns="http://www.example.org/">24</hasRentPricePerHour>
+	<rdf:type>amc0</rdf:type>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Tractor</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/AgricultureMachine/amc1">
+	<hasOwner xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Person/pc5"/>
+	<hasRentPricePerHour xmlns="http://www.example.org/">22</hasRentPricePerHour>
+	<rdf:type>amc1</rdf:type>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Cultipacker</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/AgricultureMachine/amc11">
+	<hasOwner xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Person/pc0"/>
+	<hasRentPricePerHour xmlns="http://www.example.org/">200</hasRentPricePerHour>
+	<rdf:type>amc11</rdf:type>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Potato_Harvester</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/AgricultureMachine/amc2">
+	<hasOwner xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Person/pc9"/>
+	<hasRentPricePerHour xmlns="http://www.example.org/">20</hasRentPricePerHour>
+	<rdf:type>amc2</rdf:type>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Khurpi</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/AgricultureMachine/amc3">
+	<hasOwner xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Person/pc0"/>
+	<hasRentPricePerHour xmlns="http://www.example.org/">30</hasRentPricePerHour>
+	<rdf:type>amc3</rdf:type>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">SprinklerSystem</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/AgricultureMachine/amc4">
+	<hasOwner xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Person/pc5"/>
+	<hasOwner xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Person/pc9"/>
+	<hasRentPricePerHour xmlns="http://www.example.org/">230</hasRentPricePerHour>
+	<hasRentPricePerHour xmlns="http://www.example.org/">234</hasRentPricePerHour>
+	<rdf:type>amc4</rdf:type>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">PumpandPipe</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/AgricultureMachine/amc5">
+	<hasOwner xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Person/pc9"/>
+	<hasRentPricePerHour xmlns="http://www.example.org/">49</hasRentPricePerHour>
+	<rdf:type>amc5</rdf:type>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Sprayer</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/AgricultureMachine/amc6">
+	<hasOwner xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Person/pc5"/>
+	<hasRentPricePerHour xmlns="http://www.example.org/">66</hasRentPricePerHour>
+	<rdf:type>amc6</rdf:type>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Roller</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/AgricultureMachine/amc8">
+	<hasOwner xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Person/pc0"/>
+	<hasRentPricePerHour xmlns="http://www.example.org/">100</hasRentPricePerHour>
+	<rdf:type>amc8</rdf:type>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">RiceSeedSowingMachine</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Bank/bc5">
+	<name xmlns="http://dbpedia.org/ontology/">sbi</name>
+	<rdf:type>bc5</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Bank/bc9">
+	<name xmlns="http://dbpedia.org/ontology/">pnb</name>
+	<givesLoan xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Farmer/fc9"/>
+	<rdf:type>bc9</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/ColdStorage/cscc5">
+	<name xmlns="http://dbpedia.org/ontology/">janta mini cold storage</name>
+	<agentMobileTelephoneNumber xmlns="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#">094314 15336</agentMobileTelephoneNumber>
+	<hasLocation xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Location/lc6"/>
+	<hasRentPricePerMonth xmlns="http://www.example.org/">500</hasRentPricePerMonth>
+	<rdf:type>cscc5</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/ColdStorage/cscc9">
+	<name xmlns="http://dbpedia.org/ontology/">janta mini cold storage</name>
+	<agentMobileTelephoneNumber xmlns="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#">094314 15336</agentMobileTelephoneNumber>
+	<hasLocation xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Location/lc10"/>
+	<hasRentPricePerMonth xmlns="http://www.example.org/">500</hasRentPricePerMonth>
+	<rdf:type>cscc9</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Crop/cc5">
+	<name xmlns="http://dbpedia.org/ontology/">wheat</name>
+	<hasCropType xmlns="http://www.example.org/">Rabi Crops</hasCropType>
+	<hasEndMonth xmlns="http://www.example.org/">April</hasEndMonth>
+	<hasStartMonth xmlns="http://www.example.org/">October</hasStartMonth>
+	<havingStageOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/CropGrowth/cgc5"/>
+	<havingStageOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Harvesting/hc5"/>
+	<havingStageOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Irrigation/ic5"/>
+	<havingStageOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/SeedSowing/ssc5"/>
+	<stored_in xmlns="http://www.example.org/" rdf:resource="http://www.example.org/ColdStorage/cscc5"/>
+	<rdf:type>cc5</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Crop/cc9">
+	<name xmlns="http://dbpedia.org/ontology/">rice</name>
+	<hasCropType xmlns="http://www.example.org/">Rabi Crops</hasCropType>
+	<hasEndMonth xmlns="http://www.example.org/">July</hasEndMonth>
+	<hasStartMonth xmlns="http://www.example.org/">October</hasStartMonth>
+	<havingStageOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/CropGrowth/cgc9"/>
+	<havingStageOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Harvesting/hc9"/>
+	<havingStageOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Irrigation/ic9"/>
+	<havingStageOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/SeedSowing/ssc9"/>
+	<stored_in xmlns="http://www.example.org/" rdf:resource="http://www.example.org/ColdStorage/cscc9"/>
+	<rdf:type>cc9</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/CropGrowth/cgc5">
+	<requires xmlns="http://www.example.org/" rdf:resource="http://www.example.org/FarmingRelatedProduct/frpc6"/>
+	<rdf:type>cgc5</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/CropGrowth/cgc9">
+	<requires xmlns="http://www.example.org/" rdf:resource="http://www.example.org/FarmingRelatedProduct/frpc10"/>
+	<rdf:type>cgc9</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/DependentFarmer/dfc0">
+	<isWorkingUnder xmlns="http://www.example.org/" rdf:resource="http://www.example.org/NonFarmer/nfc5"/>
+	<rdf:type>dfc0</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Farmer/fc0">
+	<cultivates xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Crop/cc5"/>
+	<is_a xmlns="http://www.example.org/" rdf:resource="http://www.example.org/DependentFarmer/dfc0"/>
+	<rdf:type>fc0</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Farmer/fc9">
+	<cultivates xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Crop/cc9"/>
+	<is_a xmlns="http://www.example.org/" rdf:resource="http://www.example.org/IndependentFarmer/ifc9"/>
+	<rdf:type>fc9</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/FarmingRelatedProduct/frpc10">
+	<price xmlns="http://dbpedia.org/ontology/">450</price>
+	<EnrichMineral xmlns="http://www.example.org/">n/a</EnrichMineral>
+	<ProductType xmlns="http://www.example.org/">Pesticide</ProductType>
+	<UnitType xmlns="http://www.example.org/">gallon</UnitType>
+	<spreadBy xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc5"/>
+	<rdf:type>frpc10</rdf:type>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">ViriPlus+</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/FarmingRelatedProduct/frpc5">
+	<price xmlns="http://dbpedia.org/ontology/">100</price>
+	<EnrichMineral xmlns="http://www.example.org/">magneeze</EnrichMineral>
+	<ProductType xmlns="http://www.example.org/">Fertilizer</ProductType>
+	<UnitType xmlns="http://www.example.org/">gallon</UnitType>
+	<spreadBy xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc12"/>
+	<rdf:type>frpc5</rdf:type>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">amonium nitrate</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/FarmingRelatedProduct/frpc6">
+	<price xmlns="http://dbpedia.org/ontology/">450</price>
+	<EnrichMineral xmlns="http://www.example.org/">n/a</EnrichMineral>
+	<ProductType xmlns="http://www.example.org/">Pesticide</ProductType>
+	<UnitType xmlns="http://www.example.org/">drums</UnitType>
+	<spreadBy xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc5"/>
+	<rdf:type>frpc6</rdf:type>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">ViriPlus+</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/FarmingRelatedProduct/frpc9">
+	<price xmlns="http://dbpedia.org/ontology/">100</price>
+	<EnrichMineral xmlns="http://www.example.org/">nitrozen</EnrichMineral>
+	<ProductType xmlns="http://www.example.org/">Fertilizer</ProductType>
+	<UnitType xmlns="http://www.example.org/">bottle</UnitType>
+	<spreadBy xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc12"/>
+	<rdf:type>frpc9</rdf:type>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">amonium nitrate</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Harvesting/hc5">
+	<requires xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc9"/>
+	<rdf:type>hc5</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Harvesting/hc9">
+	<requires xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc9"/>
+	<rdf:type>hc9</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/IndependentFarmer/ifc9">
+	<ownsLand xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Land/lc9"/>
+	<rdf:type>ifc9</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Irrigation/ic5">
+	<requires xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc4"/>
+	<rdf:type>ic5</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Irrigation/ic9">
+	<requires xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc4"/>
+	<rdf:type>ic9</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Land/lac5">
+	<refArea xmlns="http://purl.org/linked-data/sdmx/2009/dimension#">15acre</refArea>
+	<contains xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Soil/sc5"/>
+	<hasLandType xmlns="http://www.example.org/">Plain</hasLandType>
+	<located_in xmlns="http://www.example.org/" rdf:resource="http://www.example.org/State/stc5"/>
+	<plowedBy xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc0"/>
+	<plowedBy xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc2"/>
+	<rdf:type>lac5</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Land/lac9">
+	<refArea xmlns="http://purl.org/linked-data/sdmx/2009/dimension#">15acre</refArea>
+	<contains xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Soil/sc9"/>
+	<hasLandType xmlns="http://www.example.org/">Plateau</hasLandType>
+	<located_in xmlns="http://www.example.org/" rdf:resource="http://www.example.org/State/stc9"/>
+	<plowedBy xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc0"/>
+	<plowedBy xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc1"/>
+	<rdf:type>lac9</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Location/lc0">
+	<BuildingName xmlns="http://www.example.org/">N/A</BuildingName>
+	<DistrictName xmlns="http://www.example.org/">DARBHANGA</DistrictName>
+	<PostOfficeName xmlns="http://www.example.org/">OJHAUL</PostOfficeName>
+	<StateName xmlns="http://www.example.org/">BIHAR</StateName>
+	<StreetName xmlns="http://www.example.org/">N/A</StreetName>
+	<VillageName xmlns="http://www.example.org/">OJHAUL</VillageName>
+	<rdf:type>lc0</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Location/lc10">
+	<BuildingName xmlns="http://www.example.org/">n/a</BuildingName>
+	<DistrictName xmlns="http://www.example.org/">darbhanga</DistrictName>
+	<PostOfficeName xmlns="http://www.example.org/">n/a</PostOfficeName>
+	<StateName xmlns="http://www.example.org/">bihar</StateName>
+	<StreetName xmlns="http://www.example.org/">Donar Road</StreetName>
+	<VillageName xmlns="http://www.example.org/">n/a</VillageName>
+	<rdf:type>lc10</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Location/lc5">
+	<BuildingName xmlns="http://www.example.org/">N/A</BuildingName>
+	<DistrictName xmlns="http://www.example.org/">DARBHANGA</DistrictName>
+	<PostOfficeName xmlns="http://www.example.org/">OJHAUL</PostOfficeName>
+	<StateName xmlns="http://www.example.org/">BIHAR</StateName>
+	<StreetName xmlns="http://www.example.org/">N/A</StreetName>
+	<VillageName xmlns="http://www.example.org/">OJHAUL</VillageName>
+	<rdf:type>lc5</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Location/lc6">
+	<BuildingName xmlns="http://www.example.org/">n/a</BuildingName>
+	<DistrictName xmlns="http://www.example.org/">darbhanga</DistrictName>
+	<PostOfficeName xmlns="http://www.example.org/">n/a</PostOfficeName>
+	<StateName xmlns="http://www.example.org/">bihar</StateName>
+	<StreetName xmlns="http://www.example.org/">Donar Road</StreetName>
+	<VillageName xmlns="http://www.example.org/">n/a</VillageName>
+	<rdf:type>lc6</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Location/lc9">
+	<BuildingName xmlns="http://www.example.org/">N/A</BuildingName>
+	<DistrictName xmlns="http://www.example.org/">DARBHANGA</DistrictName>
+	<PostOfficeName xmlns="http://www.example.org/">OJHAUL</PostOfficeName>
+	<StateName xmlns="http://www.example.org/">BIHAR</StateName>
+	<StreetName xmlns="http://www.example.org/">N/A</StreetName>
+	<VillageName xmlns="http://www.example.org/">OJHAUL</VillageName>
+	<rdf:type>lc9</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/NonFarmer/nfc5">
+	<occupation xmlns="http://dbpedia.org/ontology/">service</occupation>
+	<hasLand xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Land/lac5"/>
+	<rdf:type>nfc5</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Person/pc0">
+	<age xmlns="http://dbpedia.org/ontology/">23</age>
+	<gender xmlns="http://www.bbc.co.uk/ontologies/coreconcepts/">male</gender>
+	<agentMobileTelephoneNumber xmlns="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#">08084779547</agentMobileTelephoneNumber>
+	<hasLocation xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Location/lc0"/>
+	<isOwnerOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc0"/>
+	<isOwnerOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc11"/>
+	<isOwnerOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc3"/>
+	<isOwnerOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc8"/>
+	<is_a xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Farmer/fc0"/>
+	<rdf:type>pc0</rdf:type>
+	<name xmlns="http://xmlns.com/foaf/0.1/">DEEPAK</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Person/pc5">
+	<age xmlns="http://dbpedia.org/ontology/">27</age>
+	<gender xmlns="http://www.bbc.co.uk/ontologies/coreconcepts/">male</gender>
+	<agentMobileTelephoneNumber xmlns="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#">8864997648</agentMobileTelephoneNumber>
+	<hasLocation xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Location/lc5"/>
+	<isOwnerOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc0"/>
+	<isOwnerOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc1"/>
+	<isOwnerOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc4"/>
+	<isOwnerOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc6"/>
+	<is_a xmlns="http://www.example.org/" rdf:resource="http://www.example.org/NonFarmer/nfc5"/>
+	<rdf:type>pc5</rdf:type>
+	<name xmlns="http://xmlns.com/foaf/0.1/">tanmay</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Person/pc9">
+	<age xmlns="http://dbpedia.org/ontology/">29</age>
+	<gender xmlns="http://www.bbc.co.uk/ontologies/coreconcepts/">male</gender>
+	<agentMobileTelephoneNumber xmlns="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#">7903010313</agentMobileTelephoneNumber>
+	<hasLocation xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Location/lc9"/>
+	<isOwnerOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc2"/>
+	<isOwnerOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc4"/>
+	<isOwnerOf xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc5"/>
+	<is_a xmlns="http://www.example.org/" rdf:resource="http://www.example.org/Farmer/fc9"/>
+	<rdf:type>pc9</rdf:type>
+	<name xmlns="http://xmlns.com/foaf/0.1/">raju</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/SeedSowing/ssc5">
+	<requires xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc2"/>
+	<requires xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc8"/>
+	<rdf:type>ssc5</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/SeedSowing/ssc9">
+	<requires xmlns="http://www.example.org/" rdf:resource="http://www.example.org/AgricultureMachine/amc8"/>
+	<rdf:type>ssc9</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Soil/sc5">
+	<DeficientMineral xmlns="http://www.example.org/">magneeze</DeficientMineral>
+	<EnrichMineral xmlns="http://www.example.org/">potassium,sodium</EnrichMineral>
+	<hasSoilType xmlns="http://www.example.org/">Black soil</hasSoilType>
+	<majorcrop xmlns="http://www.example.org/">corn,wheat</majorcrop>
+	<needs xmlns="http://www.example.org/" rdf:resource="http://www.example.org/FarmingRelatedProduct/frpc5"/>
+	<rdf:type>sc5</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/Soil/sc9">
+	<DeficientMineral xmlns="http://www.example.org/">nitrozen</DeficientMineral>
+	<EnrichMineral xmlns="http://www.example.org/">potassium,sodium</EnrichMineral>
+	<hasSoilType xmlns="http://www.example.org/">Alluvial soil</hasSoilType>
+	<majorcrop xmlns="http://www.example.org/">rice</majorcrop>
+	<needs xmlns="http://www.example.org/" rdf:resource="http://www.example.org/FarmingRelatedProduct/frpc9"/>
+	<rdf:type>sc9</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/State/stc5">
+	<name xmlns="http://dbpedia.org/ontology/">bihar</name>
+	<hasColdStorage xmlns="http://www.example.org/" rdf:resource="http://www.example.org/ColdStorage/cscc5"/>
+	<havetraditionalcrop xmlns="http://www.example.org/" rdf:resource="http://www.example.org/TraditionalCrop/cc5"/>
+	<rdf:type>stc5</rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.org/State/stc9">
+	<name xmlns="http://dbpedia.org/ontology/">bihar</name>
+	<hasColdStorage xmlns="http://www.example.org/" rdf:resource="http://www.example.org/ColdStorage/cscc9"/>
+	<havenontraditionalcrop xmlns="http://www.example.org/" rdf:resource="http://www.example.org/NonTraditionalCrop/cc9"/>
+	<rdf:type>stc9</rdf:type>
+</rdf:Description>
+
+</rdf:RDF>
