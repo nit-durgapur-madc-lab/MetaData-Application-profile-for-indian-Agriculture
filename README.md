@@ -29,7 +29,17 @@
 6. set the person count as uri and in the base uri set it as http://www.example.org/Person/ click on save and ok.
 7. click on the arrow of the collumn where count is present except for person i.e for a class which you are converting the data.
 8. click on edit cell theen tranform. it will open a new window where you write the expression for each collumn  for eample Agriculture machine count will be	"http://www.example.org/AgricultureMachine/"+value.
-9. after changing all the count value 
+9. after changing all the count value  go to edit RDF section click on the count name then click on set as URI in top . now export it as a turtle file.
+10. similarly convert all the file to rdf and export it as turtle format.
+
+instruction for GraphDB...
+
+1. open GraphDB it will automatically open in local browser at http://localhost:7200/ click on create new repository and give a name and   create it.
+2. import all turtle(ttl) file (from step 10 in last instruction) in Graph DB.
+3. click on explore on the left side go to graph overview-->the default graph---> Download as RDF/XML .
+4. open the https://www.w3.org/RDF/Validator/ and pased that RDF/XML in the select graph format as PNG link and click on parse RDF it    will show a link from where you can download the grpah structure of your dataset if it is disconnected then it is wrong it should be connected.
+5. now open SPARQL and execute some query.(see the SPARQL tutorial at https://jena.apache.org/tutorials/sparql.html)
+
 
 
  
