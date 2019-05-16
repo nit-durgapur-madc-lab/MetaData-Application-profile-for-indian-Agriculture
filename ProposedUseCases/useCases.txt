@@ -1,0 +1,11 @@
+Use case 1: Mr. Arjun is a small agricultural farmer in a village of Jharkhand. He own an agricultural land of size 1.5 Bigha. He does not own any agricultural machineries like tractor, rice mill etc. He needs an web based portal, which he can open on his reliance Jio sim enabled smartphone to search these agricultural machineries on rent basis.
+
+
+Use case 2: Mr. Arjun is a small agricultural farmer in a village of Jharkhand. He own an agricultural land of size 1.5 Bigha. The land is fully dependent on rain water for cultivation, there is no irrigation facility. Therefor Mr. Arjun harvest only paddy during the rainy season of the year. The remaining period of the year, the land remain idle. This year Mr. Arjun want to explore the other possible crops he can harvest in his land. He is looking for such information
+
+Use case 3: After harvesting Mr. Arjun wants to keep his agricultural product to the nearby available cold storage or to sell some Govt. agencies, who will give a genuine price for his products. He needs an web based portal, which he can open on his reliance Jio sim enabled smartphone to search these nearby available cold storage or to sell some Govt. agencies.
+
+Use case 4: Mr. Arjun is a dependent farmer wants to know about which pesticide and fertilizer to be used for crop growth. He needs an web based portal, which he can open on his reliance Jio sim enabled smartphone to search about these farming related product and their shop location.
+
+
+Use case 5: Based on the policy decision, this year Govt. wants to give some subsidy in the form of interest free loan to the small farmers (having cultivation land less than 2 Bigha), who will try to explore by cultivation non traditional crops like strawberry, peanut etc. . Therefore Govt. needs geospatial ICT enabled services to search such farmers.
