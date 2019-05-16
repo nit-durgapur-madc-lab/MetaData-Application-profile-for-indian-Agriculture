@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+
+<rdf:RDF 
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/" 
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xml:base="http://www.purl.org/ia/vocabs/standard/SoilType/">
+
+
+<skos:ConceptScheme rdf:about="SoilType">
+<dc:title>SoilType</dc:title>
+       <dc:description>SoilType</dc:description>
+       <dc:creator>Deepak Kumar(dk008080@gmail.com) </dc:creator>
+       <dc:contributor>Animesh Dutta (animeshnit@gmail.com)</dc:contributor>
+	    <dc:contributor>Sangeeta Sen (sangeetaaec@gmail.com)</dc:contributor>
+	    <dc:contributor>Mariana Malta (maltas.org)</dc:contributor>
+       <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-08</dcterms:created>
+       <dc:language>en-en</dc:language>
+</skos:ConceptScheme>
+
+
+<skos:Concept rdf:ID="ST01">
+        <skos:altLabel>ALS</skos:altLabel>
+        <skos:altLabel>AlluvialSoil</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">SolAlluvial</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">SueloAluvial</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">AlluvialSoil</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">SoloAluvial</skos:prefLabel>
+        <skos:prefLabel xml:lang="IT">TerrenoAlluvionale</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+         <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="SoilType"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:ID="ST02">
+        <skos:altLabel>BS</skos:altLabel>
+        <skos:altLabel>BlackSoil</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">TerreNoire</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">SueloNegro</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">BlackSoil</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">Adubo</skos:prefLabel>
+		<skos:prefLabel xml:lang="IT">SuoloNero</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+         <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="SoilType"/>
+</skos:Concept>
+
+<skos:Concept rdf:ID="ST03">
+        <skos:altLabel>RYS</skos:altLabel>
+        <skos:altLabel>RedandYellowSoil</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">Sol rouge et jaune</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">Suelo rojo y amarillo</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">RedandYellowSoil</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">Solo vermelho e amarelo</skos:prefLabel>
+        <skos:prefLabel xml:lang="IT">Terreno rosso e giallo</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+         <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="SoilType"/>
+</skos:Concept>
+
+<skos:Concept rdf:ID="ST04">
+        <skos:altLabel>LS</skos:altLabel>
+        <skos:altLabel>LateriteSoil</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">Sol latérite</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">Suelo de laterita</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">LateriteSoil</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">Solo laterítico</skos:prefLabel>
+        <skos:prefLabel xml:lang="IT">Laterite Suolo</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+         <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="SoilType"/>
+</skos:Concept>
+
+<skos:Concept rdf:ID="ST05">
+        <skos:altLabel>ARS</skos:altLabel>
+        <skos:altLabel>AridSoil</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">Sol aride</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">Suelo árido</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">AridSoil</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">Solo árido</skos:prefLabel>
+        <skos:prefLabel xml:lang="IT">Terreno arido</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+         <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="SoilType"/>
+</skos:Concept>
+
+<skos:Concept rdf:ID="ST06">
+        <skos:altLabel>SAAS</skos:altLabel>
+        <skos:altLabel>SalineandAlkalineSoil</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">Sol salin et alcalin</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">Suelo salino y alcalino</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">SalineandAlkalineSoil</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">Solo Salino e Alcalino</skos:prefLabel>
+        <skos:prefLabel xml:lang="IT">Terreno salino e alcalino</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+        <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="SoilType"/>
+</skos:Concept>
+
+<skos:Concept rdf:ID="ST07">
+        <skos:altLabel>FMS</skos:altLabel>
+        <skos:altLabel>ForestandMountainSoil</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">Sol forestier et montagnard</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">Bosque y suelo de montaña</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">ForestandMountainSoil</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">Floresta e solo de montanha</skos:prefLabel>
+        <skos:prefLabel xml:lang="IT">Terreno forestale e montuoso</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+        <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="SoilType"/>
+</skos:Concept>
+
+<skos:Concept rdf:ID="ST08">
+        <skos:altLabel>PMS</skos:altLabel>
+        <skos:altLabel>PeatyandMarshySoil</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">Sol tourbeux et marécageux</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">Suelo de turba y marisma</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">PeatyandMarshySoil</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">Turfa e solo pantanoso</skos:prefLabel>
+        <skos:prefLabel xml:lang="IT">Torba e terreno paludoso</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+        <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="SoilType"/>
+</skos:Concept>
+
+
+

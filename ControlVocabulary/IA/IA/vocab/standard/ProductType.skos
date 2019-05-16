@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+<rdf:RDF 
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/" 
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xml:base="http://www.purl.org/ia/vocabs/standard/ProductType/">
+
+
+<skos:ConceptScheme rdf:about="ProductType">
+       <dc:title>ProductType</dc:title>
+       <dc:description>Farning Related Product Type</dc:description>
+       <dc:creator>Deepak Kumar(dk008080@gmail.com) </dc:creator>
+       <dc:contributor>Animesh Dutta (animeshnit@gmail.com)</dc:contributor>
+	   <dc:contributor>Sangeeta Sen (sangeetaaec@gmail.com)</dc:contributor>
+	   <dc:contributor>Mariana Malta (maltas.org)</dc:contributor>
+       <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-08</dcterms:created>
+       <dc:language>en-en</dc:language>
+</skos:ConceptScheme>
+
+
+<skos:Concept rdf:ID="PT01">
+        <skos:altLabel>F</skos:altLabel>
+        <skos:altLabel>Fertilizer</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">Engrais</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">Fertilizante</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">Fertilizer</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">Fertilizante</skos:prefLabel>
+        <skos:prefLabel xml:lang="IT">Fertilizzante</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+        <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="ProductType"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:ID="PT02">
+        <skos:altLabel>P</skos:altLabel>
+        <skos:altLabel>Pesticide</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">Pesticide</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">Pesticida</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">Pesticide</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">Pesticida</skos:prefLabel>
+		<skos:prefLabel xml:lang="IT">Pesticida</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+         <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="ProductType"/>
+</skos:Concept>
+
+

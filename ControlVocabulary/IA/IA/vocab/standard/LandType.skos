@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+
+<rdf:RDF 
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/" 
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xml:base="http://www.purl.org/ia/vocabs/standard/LandType/">
+
+
+<skos:ConceptScheme rdf:about="LandType">
+<dc:title>LandType</dc:title>
+       <dc:description>LandType</dc:description>
+       <dc:creator>Deepak Kumar(dk008080@gmail.com) </dc:creator>
+       <dc:contributor>Animesh Dutta (animeshnit@gmail.com)</dc:contributor>
+	    <dc:contributor>Sangeeta Sen (sangeetaaec@gmail.com)</dc:contributor>
+	    <dc:contributor>Mariana Malta (maltas.org)</dc:contributor>
+       <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-08</dcterms:created>
+       <dc:language>en-en</dc:language>
+</skos:ConceptScheme>
+
+
+<skos:Concept rdf:ID="LT01">
+        <skos:altLabel>ML</skos:altLabel>
+        <skos:altLabel>MountainLand</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">terre de montagne</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">tierra de montaña</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">MountainLand</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">terra da montanha</skos:prefLabel>
+        <skos:prefLabel xml:lang="IT">terra di montagna</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+         <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="LandType"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:ID="LT02">
+        <skos:altLabel>PLL</skos:altLabel>
+        <skos:altLabel>PlateauLand</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">Terre de plateau</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">Tierra meseta</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">PleatueLand</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">Terra do planalto</skos:prefLabel>
+		<skos:prefLabel xml:lang="IT">Terra del plateau</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+         <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="LandType"/>
+</skos:Concept>
+
+<skos:Concept rdf:ID="LT03">
+        <skos:altLabel>PL</skos:altLabel>
+        <skos:altLabel>PlainLand</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">terre ordinaire</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">tierra llana</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">PlainLand</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">terra plana</skos:prefLabel>
+        <skos:prefLabel xml:lang="IT">pianura</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+         <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="LandType"/>
+</skos:Concept>

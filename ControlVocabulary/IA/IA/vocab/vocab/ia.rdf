@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://purl.org/vocab/vann/"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <rdf:Description rdf:about="http://purl.org/ia/IA/">
+    <ns0:preferredNamespacePrefix>IA</ns0:preferredNamespacePrefix>
+    <ns0:preferredNamespaceUri>http://http://purl.org/ia/IA/</ns0:preferredNamespaceUri>
+    <dc:title xml:lang="en">ia Vocabulary</dc:title>
+    <dc:description xml:lang="en">A vocabulary for indian agriculture domain. This vocabulary is designed to be used in combination with the metadata schemes/vocabularies/ontologies: foaf,rdfs,bbcore,ebucore,juso,dbpedia-owl,npg,Sdmx-dimension,rdf. Created by Deeepak kumar</dc:description>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.1</owl:versionInfo>
+    <dc:publisher rdf:resource="http://opendata.dsi.uminho.pt"/>
+    <dc:creator>Deepak kumar</dc:creator>
+    <dc:contributor rdf:resource="http://www.nitdgp.ac.in"/>
+    <dc:contributor rdf:resource="http://algoritmi.uminho.pt/"/>
+  </rdf:Description>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/Person">
+    <rdfs:label xml:lang="en">Person</rdfs:label>
+    <dc:description xml:lang="en">An person can be either a farmer or a non-farmer</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/Farmer">
+    <rdfs:label xml:lang="en">Farmer</rdfs:label>
+    <dc:description xml:lang="en">A person who owns or manages a farm </dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:subClassOf rdf:resource="http://purl.org/dh/DH/Person"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/Non-Farmer">
+    <rdfs:label xml:lang="en">Non-Farmer</rdfs:label>
+    <dc:description xml:lang="en">A person who does a job other than farming</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-15</dc:issued>
+    <rdfs:subClassOf rdf:resource="http://purl.org/ia/IA/Person"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/DependentFarmer">
+    <rdfs:label xml:lang="en">DependentFarmer</rdfs:label>
+    <dc:description xml:lang="en">A farmer who works under non-farmer</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:subClassOf rdf:resource="http://purl.org/ia/IA/Farmer"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/Independent-Farmer">
+    <rdfs:label xml:lang="en">Independent-Farmer</rdfs:label>
+    <dc:description xml:lang="en">A farmer having their own land for farming</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:subClassOf rdf:resource="http://purl.org/ia/IA/Farmer"/>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/State">
+    <rdfs:label xml:lang="en">State</rdfs:label>
+    <dc:description xml:lang="en">name of the state where the land is located</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/ColdStorage">
+    <rdfs:label xml:lang="en">ColdStorage</rdfs:label>
+    <dc:description xml:lang="en">coldstorage is used to keep the crops for future use</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/Location">
+    <rdfs:label xml:lang="en">Location</rdfs:label>
+    <dc:description xml:lang="en">Location of the cold storage,person and agriculture machinary</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/SeedSowing">
+    <rdfs:label xml:lang="en">SeedSowing</rdfs:label>
+    <dc:description xml:lang="en">seed sowing is the first stage of crop cultivation</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/Irrigation">
+    <rdfs:label xml:lang="en">Irrigation</rdfs:label>
+    <dc:description xml:lang="en">irrigation is the secong stage of crop cultivation</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/CropGrowth">
+    <rdfs:label xml:lang="en">CropGrowth</rdfs:label>
+    <dc:description xml:lang="en">crop growth is the third stage of crop cultivation </dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/Harvesting">
+    <rdfs:label xml:lang="en">Harvesting</rdfs:label>
+    <dc:description xml:lang="en">Harvesting is the last stage of crop cultivation</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/AgricultureMachinary">
+    <rdfs:label xml:lang="en">AgricultureMachinary</rdfs:label>
+    <dc:description xml:lang="en">machine or equipment used for agriculture purpose</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/Bank">
+    <rdfs:label xml:lang="en">Bank</rdfs:label>
+    <dc:description xml:lang="en">Bank gives loan to the farmer</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/Land">
+    <rdfs:label xml:lang="en">Land</rdfs:label>
+    <dc:description xml:lang="en">Land where farmer works</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/FarmingRelatedProduct">
+    <rdfs:label xml:lang="en">FarmingRelatedProduct</rdfs:label>
+    <dc:description xml:lang="en">product used for farming</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/Soil">
+    <rdfs:label xml:lang="en">Soil</rdfs:label>
+    <dc:description xml:lang="en">soil found in land</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+  </rdfs:Class>
+
+  <rdfs:Class rdf:about="http://purl.org/ia/IA/Crop">
+    <rdfs:label xml:lang="en">Crop</rdfs:label>
+    <dc:description xml:lang="en">crop cultivated by the farmer</dc:description>
+    <rdfs:isDefinedBy>http://purl.org/ia/IA/</rdfs:isDefinedBy>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+  </rdfs:Class>
+
+  <rdf:Description rdf:about="http://purl.org/ia/IA/LandType">
+    <rdfs:label xml:lang="en">LandType VES</rdfs:label>
+    <dc:description xml:lang="en">An LandType vocabulary scheme</dc:description>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <owl:equivalentClass>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <owl:hasValue rdf:resource="http://purl.org/ia/standard/LandType"/>
+      </owl:Restriction>
+    </owl:equivalentClass>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/ia/IA/ProductType">
+    <rdfs:label xml:lang="en">ProductType VES</rdfs:label>
+    <dc:description xml:lang="en">An ProductType vocabulary scheme</dc:description>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <owl:equivalentClass>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <owl:hasValue rdf:resource="http://purl.org/ia/standard/ProductType"/>
+      </owl:Restriction>
+    </owl:equivalentClass>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/ia/IA/SoilType">
+    <rdfs:label xml:lang="en">SoilType VES</rdfs:label>
+    <dc:description xml:lang="en">An SoilType vocabulary scheme</dc:description>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <owl:equivalentClass>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <owl:hasValue rdf:resource="http://purl.org/ia/standard/SoilType"/>
+      </owl:Restriction>
+    </owl:equivalentClass>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://purl.org/ia/IA/CropType">
+    <rdfs:label xml:lang="en">CropType VES</rdfs:label>
+    <dc:description xml:lang="en">An CropType vocabulary scheme</dc:description>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#concept"/>
+    <owl:equivalentClass>
+      <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <owl:hasValue rdf:resource="http://purl.org/ia/standard/CropType"/>
+      </owl:Restriction>
+    </owl:equivalentClass>
+
+  </rdf:Description>
+
+  <owl:DatatypeProperty rdf:about="http://purl.org/ia/IA/EnrichMineral">
+    <rdfs:label xml:lang="en">EnrichMineral</rdfs:label>
+    <dc:description xml:lang="en">mineral which is found in more ratio in the farming related product</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="http://purl.org/ia/IA/DeficientMineral">
+    <rdfs:label xml:lang="en">DeficientMineral</rdfs:label>
+    <dc:description xml:lang="en">mineral which found in less ratio in the farming related product</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="http://purl.org/ia/IA/hasRentPricePerMonth">
+    <rdfs:label xml:lang="en">has RentPricePerMonth</rdfs:label>
+    <dc:description xml:lang="en">monthly Rent price for the coldstorage</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="http://purl.org/ia/IA/hasRentPricePerHour">
+    <rdfs:label xml:lang="en">has RentPricePerHour</rdfs:label>
+    <dc:description xml:lang="en">hourly Rent price for Agriculture machines</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="http://purl.org/ia/IA/hasPricePerUnit">
+    <rdfs:label xml:lang="en">has price per unit</rdfs:label>
+    <dc:description xml:lang="en">price of the one unit of farming related product</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="http://purl.org/ia/UnitType">
+    <rdfs:label xml:lang="en">UnitType</rdfs:label>
+    <dc:description xml:lang="en">type of the unit in which farming related product is being sold</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="http://purl.org/ia/MajorCropName">
+    <rdfs:label xml:lang="en">MajorCropName</rdfs:label>
+    <dc:description xml:lang="en">the crops which are cultivated most in a particular soil type</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</dc:issued>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+  </owl:DatatypeProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/givesLoan">
+    <rdfs:label xml:lang="en">givesLoan</rdfs:label>
+    <dc:description xml:lang="en">This object property is to help bank to give loan to the farmer </dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/hasLocation">
+    <rdfs:label xml:lang="en">hasLocation</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the location of the bank,person and farming related product</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/isWorkingUnder">
+    <rdfs:label xml:lang="en">isWorkingUnder</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify, where the dependent farmer is working</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/ownsLand">
+    <rdfs:label xml:lang="en">ownsLand</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the land quantity and type owns by the independent farmer</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/cultivates">
+    <rdfs:label xml:lang="en">cultivates</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the crops cultivated by the farmer</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/havenontraditionalcrop">
+    <rdfs:label xml:lang="en">havenontraditionalcrop</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the non traditional crop of a state</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/havetraditionalcrop">
+    <rdfs:label xml:lang="en">havetraditionalcrop</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the traditional crop of a state</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/havingStageOf">
+    <rdfs:label xml:lang="en">havingStageOf</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the diferent stage (seedsowing,irrigation,cropgrowth,harvesting) of crop cultivation</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/requires">
+    <rdfs:label xml:lang="en">requires</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the requrement of agriculture machinary in different stages (seedsowing,irrigation,cropgrowth,harvesting) of crop cultivation</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/hasLand">
+    <rdfs:label xml:lang="en">hasLand</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the land quantity and type owns by non-farmer </dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/hasOwner">
+    <rdfs:label xml:lang="en">hasOwner</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the owner of the agriculture machinary </dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/needs">
+    <rdfs:label xml:lang="en">needs</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the need of the farming related product for the soil </dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/stored_in">
+    <rdfs:label xml:lang="en">stored_in</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the coldstorage to store the crops </dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/spreadBy">
+    <rdfs:label xml:lang="en">spreadBy</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the Agriculture Machinary required to spread the farming related product</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/contains">
+    <rdfs:label xml:lang="en">contains</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the soil type in a particular land</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="http://purl.org/ia/IA/plowedBy">
+    <rdfs:label xml:lang="en">plowedBy</rdfs:label>
+    <dc:description xml:lang="en">This object property is to identify the agriculture machinary required to plowed the land</dc:description>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/ia/IA/"/>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-13</dc:issued>
+  </owl:ObjectProperty>
+
+</rdf:RDF>

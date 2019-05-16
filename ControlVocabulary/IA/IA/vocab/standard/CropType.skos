@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+
+<rdf:RDF 
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/" 
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xml:base="http://www.purl.org/ia/vocabs/standard/CropType/">
+
+
+<skos:ConceptScheme rdf:about="CropType">
+<dc:title>CropType</dc:title>
+       <dc:description>CropType</dc:description>
+       <dc:creator>Deepak Kumar(dk008080@gmail.com) </dc:creator>
+       <dc:contributor>Animesh Dutta (animeshnit@gmail.com)</dc:contributor>
+	    <dc:contributor>Sangeeta Sen (sangeetaaec@gmail.com)</dc:contributor>
+	    <dc:contributor>Mariana Malta (maltas.org)</dc:contributor>
+       <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-08</dcterms:created>
+       <dc:language>en-en</dc:language>
+</skos:ConceptScheme>
+
+
+<skos:Concept rdf:ID="CT01">
+        <skos:altLabel>KC</skos:altLabel>
+        <skos:altLabel>KharifCrop</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">Récolte Kharif</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">Cosecha de Kharif</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">KharifCrop</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">Colheita Kharif</skos:prefLabel>
+        <skos:prefLabel xml:lang="IT">Raccolto Kharif</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+         <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="CropType"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:ID="CT02">
+        <skos:altLabel>RC</skos:altLabel>
+        <skos:altLabel>RabiCrop</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">culture rabi</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">cultivo de rabi</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">RabiCrop</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">safra de rabi</skos:prefLabel>
+		<skos:prefLabel xml:lang="IT">raccolto di rabi</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+         <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="CropType"/>
+</skos:Concept>
+
+<skos:Concept rdf:ID="CT03">
+        <skos:altLabel>ZC</skos:altLabel>
+        <skos:altLabel>ZaidCrop</skos:altLabel>
+        <skos:prefLabel xml:lang="FR">Zaid crop</skos:prefLabel>
+        <skos:prefLabel xml:lang="ES">cosecha zaid</skos:prefLabel>
+        <skos:prefLabel xml:lang="EN">ZaidCrop</skos:prefLabel>
+        <skos:prefLabel xml:lang="PT">safra zaid</skos:prefLabel>
+        <skos:prefLabel xml:lang="IT">zaid raccolto</skos:prefLabel>
+        <skos:scopeNote xml:lang="FR"></skos:scopeNote>
+        <skos:scopeNote xml:lang="ES"></skos:scopeNote>
+        <skos:scopeNote xml:lang="EN"></skos:scopeNote>
+        <skos:scopeNote xml:lang="PT"></skos:scopeNote>
+         <skos:scopeNote xml:lang="IT"></skos:scopeNote>
+        <skos:inScheme rdf:resource="CropType"/>
+</skos:Concept>
+

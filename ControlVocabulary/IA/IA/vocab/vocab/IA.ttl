@@ -1,0 +1,368 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .@prefix ns0: <http://purl.org/vocab/vann/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+### Vocabulary metadata ###
+
+<http://purl.org/ia/IA/>
+  ns0:preferredNamespacePrefix "IA" ;
+  ns0:preferredNamespaceUri "http://http://purl.org/ia/IA/" ;
+  dc:title "ia Vocabulary"@en ;
+  dc:description "A vocabulary for indian agriculture domain. This vocabulary is designed to be used in combination with the metadata schemes/vocabularies/ontologies: foaf,rdfs,bbcore,ebucore,juso,dbpedia-owl,npg,Sdmx-dimension,rdf. Created by Deeepak kumar"@en ;
+ 
+  dc:issued "2019-03-12"^^xsd:date ;
+  owl:versionInfo 1.1 ;
+  dc:publisher <http://opendata.dsi.uminho.pt> ;
+  dc:creator "Deepak kumar"  ;
+  dc:contributor <http://www.nitdgp.ac.in> ;
+  dc:contributor <http://algoritmi.uminho.pt/> .
+
+### Classes ###
+
+<http://purl.org/ia/IA/Person>
+  rdfs:label "Person"@en ;
+  dc:description "An person can be either a farmer or a non-farmer"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class ;
+  rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> .
+
+<http://purl.org/ia/IA/Farmer>
+  rdfs:label "Farmer"@en ;
+  dc:description "A person who owns or manages a farm "@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class ;
+  rdfs:subClassOf <http://purl.org/dh/DH/Person> .
+  
+<http://purl.org/ia/IA/Non-Farmer>
+  rdfs:label "Non-Farmer"@en ;
+  dc:description "A person who does a job other than farming"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2018-03-15"^^xsd:date ;
+  a rdfs:Class ;
+  rdfs:subClassOf <http://purl.org/ia/IA/Person> .
+
+<http://purl.org/ia/IA/DependentFarmer>
+  rdfs:label "DependentFarmer"@en ;
+  dc:description "A farmer who works under non-farmer"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class ;
+  rdfs:subClassOf <http://purl.org/ia/IA/Farmer> .
+  
+<http://purl.org/ia/IA/Independent-Farmer>
+  rdfs:label "Independent-Farmer"@en ;
+  dc:description "A farmer having their own land for farming"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class ;
+  rdfs:subClassOf <http://purl.org/ia/IA/Farmer> .
+  
+  
+<http://purl.org/ia/IA/State>
+  rdfs:label "State"@en ;
+  dc:description "name of the state where the land is located"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class .
+
+  <http://purl.org/ia/IA/ColdStorage>
+  rdfs:label "ColdStorage"@en ;
+  dc:description "coldstorage is used to keep the crops for future use"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class .
+  
+    <http://purl.org/ia/IA/Location>
+  rdfs:label "Location"@en ;
+  dc:description "Location of the cold storage,person and agriculture machinary"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class .
+  
+   <http://purl.org/ia/IA/SeedSowing>
+  rdfs:label "SeedSowing"@en ;
+  dc:description "seed sowing is the first stage of crop cultivation"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class .
+  
+   <http://purl.org/ia/IA/Irrigation>
+  rdfs:label "Irrigation"@en ;
+  dc:description "irrigation is the secong stage of crop cultivation"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class .
+  
+   <http://purl.org/ia/IA/CropGrowth>
+  rdfs:label "CropGrowth"@en ;
+  dc:description "crop growth is the third stage of crop cultivation "@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class .
+  
+   <http://purl.org/ia/IA/Harvesting>
+  rdfs:label "Harvesting"@en ;
+  dc:description "Harvesting is the last stage of crop cultivation"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class .
+  
+   <http://purl.org/ia/IA/AgricultureMachinary>
+  rdfs:label "AgricultureMachinary"@en ;
+  dc:description "machine or equipment used for agriculture purpose"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class .
+  
+    <http://purl.org/ia/IA/Bank>
+  rdfs:label "Bank"@en ;
+  dc:description "Bank gives loan to the farmer"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class .
+  
+    <http://purl.org/ia/IA/Land>
+  rdfs:label "Land"@en ;
+  dc:description "Land where farmer works"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class .
+  
+     <http://purl.org/ia/IA/FarmingRelatedProduct>
+  rdfs:label "FarmingRelatedProduct"@en ;
+  dc:description "product used for farming"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class .
+  
+    <http://purl.org/ia/IA/Soil>
+  rdfs:label "Soil"@en ;
+  dc:description "soil found in land"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class .
+  
+  <http://purl.org/ia/IA/Crop>
+  rdfs:label "Crop"@en ;
+  dc:description "crop cultivated by the farmer"@en ;
+  rdfs:isDefinedBy "http://purl.org/ia/IA/" ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a rdfs:Class .
+  
+  
+  
+
+  ### VES Classes ###
+
+<http://purl.org/ia/IA/LandType>
+  rdfs:label "LandType VES"@en ;
+  dc:description "An LandType vocabulary scheme"@en ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  rdfs:subClassOf skos:concept;
+   owl:equivalentClass [ a owl:Restriction ; owl:onProperty skos:inScheme ; owl:hasValue <http://purl.org/ia/standard/LandType> ] .
+
+<http://purl.org/ia/IA/ProductType>
+  rdfs:label "ProductType VES"@en ;
+  dc:description "An ProductType vocabulary scheme"@en ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  rdfs:subClassOf skos:concept;
+   owl:equivalentClass [ a owl:Restriction ; owl:onProperty skos:inScheme ; owl:hasValue <http://purl.org/ia/standard/ProductType> ] .
+
+  <http://purl.org/ia/IA/SoilType>
+  rdfs:label "SoilType VES"@en ;
+  dc:description "An SoilType vocabulary scheme"@en ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  rdfs:subClassOf skos:concept;
+   owl:equivalentClass [ a owl:Restriction ; owl:onProperty skos:inScheme ; owl:hasValue <http://purl.org/ia/standard/SoilType> ] .
+
+<http://purl.org/ia/IA/CropType>
+  rdfs:label "CropType VES"@en ;
+  dc:description "An CropType vocabulary scheme"@en ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  rdfs:subClassOf skos:concept;
+   owl:equivalentClass [ a owl:Restriction ; owl:onProperty skos:inScheme ; owl:hasValue <http://purl.org/ia/standard/CropType> ] .
+
+
+### DataType Properties ###
+
+<http://purl.org/ia/IA/EnrichMineral>
+  rdfs:label "EnrichMineral"@en ;
+  dc:description "mineral which is found in more ratio in the farming related product"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a owl:DatatypeProperty ;
+  rdfs:range rdfs:Literal.
+ 
+<http://purl.org/ia/IA/DeficientMineral>
+  rdfs:label "DeficientMineral"@en ;
+  dc:description "mineral which found in less ratio in the farming related product"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a owl:DatatypeProperty ;
+  rdfs:range rdfs:Literal.
+  
+<http://purl.org/ia/IA/hasRentPricePerMonth>
+  rdfs:label "has RentPricePerMonth"@en ;
+  dc:description "monthly Rent price for the coldstorage"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a owl:DatatypeProperty ;
+  rdfs:range rdfs:Literal.
+  
+<http://purl.org/ia/IA/hasRentPricePerHour>
+  rdfs:label "has RentPricePerHour"@en ;
+  dc:description "hourly Rent price for Agriculture machines"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a owl:DatatypeProperty ;
+  rdfs:range rdfs:Literal.
+  
+ <http://purl.org/ia/IA/hasPricePerUnit>
+  rdfs:label "has price per unit"@en ;
+  dc:description "price of the one unit of farming related product"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a owl:DatatypeProperty ;
+  rdfs:range rdfs:Literal.
+  
+<http://purl.org/ia/UnitType>
+  rdfs:label "UnitType"@en ;
+  dc:description "type of the unit in which farming related product is being sold"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a owl:DatatypeProperty ;
+  rdfs:range rdfs:Literal.
+ 
+ <http://purl.org/ia/MajorCropName>
+  rdfs:label "MajorCropName"@en ;
+  dc:description "the crops which are cultivated most in a particular soil type"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2019-03-12"^^xsd:date ;
+  a owl:DatatypeProperty ;
+  rdfs:range rdfs:Literal.
+ 
+
+
+### Object Properties ###
+
+<http://purl.org/ia/IA/givesLoan>
+  rdfs:label "givesLoan"@en ;
+  dc:description "This object property is to help bank to give loan to the farmer "@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2019-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+<http://purl.org/ia/IA/hasLocation>
+  rdfs:label "hasLocation"@en ;
+  dc:description "This object property is to identify the location of the bank,person and farming related product"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+<http://purl.org/ia/IA/isWorkingUnder>
+  rdfs:label "isWorkingUnder"@en ;
+  dc:description "This object property is to identify, where the dependent farmer is working"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+ <http://purl.org/ia/IA/ownsLand>
+  rdfs:label "ownsLand"@en ;
+  dc:description "This object property is to identify the land quantity and type owns by the independent farmer"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+    
+ <http://purl.org/ia/IA/cultivates>
+  rdfs:label "cultivates"@en ;
+  dc:description "This object property is to identify the crops cultivated by the farmer"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+   <http://purl.org/ia/IA/havenontraditionalcrop>
+  rdfs:label "havenontraditionalcrop"@en ;
+  dc:description "This object property is to identify the non traditional crop of a state"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+   <http://purl.org/ia/IA/havetraditionalcrop>
+  rdfs:label "havetraditionalcrop"@en ;
+  dc:description "This object property is to identify the traditional crop of a state"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+     <http://purl.org/ia/IA/havingStageOf>
+  rdfs:label "havingStageOf"@en ;
+  dc:description "This object property is to identify the diferent stage (seedsowing,irrigation,cropgrowth,harvesting) of crop cultivation"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+    <http://purl.org/ia/IA/requires>
+  rdfs:label "requires"@en ;
+  dc:description "This object property is to identify the requrement of agriculture machinary in different stages (seedsowing,irrigation,cropgrowth,harvesting) of crop cultivation"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+    <http://purl.org/ia/IA/hasLand>
+  rdfs:label "hasLand"@en ;
+  dc:description "This object property is to identify the land quantity and type owns by non-farmer "@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+   <http://purl.org/ia/IA/hasOwner>
+  rdfs:label "hasOwner"@en ;
+  dc:description "This object property is to identify the owner of the agriculture machinary "@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+     <http://purl.org/ia/IA/needs>
+  rdfs:label "needs"@en ;
+  dc:description "This object property is to identify the need of the farming related product for the soil "@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+   <http://purl.org/ia/IA/stored_in>
+  rdfs:label "stored_in"@en ;
+  dc:description "This object property is to identify the coldstorage to store the crops "@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+   <http://purl.org/ia/IA/spreadBy>
+  rdfs:label "spreadBy"@en ;
+  dc:description "This object property is to identify the Agriculture Machinary required to spread the farming related product"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+   <http://purl.org/ia/IA/contains>
+  rdfs:label "contains"@en ;
+  dc:description "This object property is to identify the soil type in a particular land"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+  <http://purl.org/ia/IA/plowedBy>
+  rdfs:label "plowedBy"@en ;
+  dc:description "This object property is to identify the agriculture machinary required to plowed the land"@en ;
+  rdfs:isDefinedBy <http://purl.org/ia/IA/> ;
+  dc:issued "2018-03-13"^^xsd:date ;
+  a owl:ObjectProperty .
+  
+  
