@@ -1,6 +1,6 @@
       Prerequisites
       
-1. XAMPP for sing Apache HTTP Server (see their installation guide).
+1. XAMPP for using Apache HTTP Server (see their installation guide).
 2. open refine version 3.0-rc.1 with RDF extension (see their installation guide )
 3. GraphDB (you can use free version) (see their installation guide)
 4. Any Text Editor (eg. Notepad++)
